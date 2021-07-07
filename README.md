@@ -1,8 +1,13 @@
-## Hey <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="24" />, I'm Nathan!
+<!-- markdownlint-disable MD033 -->
+<!-- markdownlint-disable MD041 -->
+
+<h2>
+  Hey <img src="./assets/wave.gif" width="24" />, I'm Nathan!
+</h2>
 
 I'm currently a Junior Student at [University of Economics and Finance](https://www.uef.edu.vn/en) in Ho Chi Minh City, Vietnam. I have a great passion in full-stack web development.
 
-[![Facebook profile](https://img.shields.io/badge/Facebook-1877F2?style=flat-square&amp;labelColor=white&amp;logo=facebook&amp;)](https://facebook.com/nathan22x3)
+[![Facebook profile](https://img.shields.io/badge/Facebook-1877F2?style=flat-square&labelColor=white&logo=facebook)](https://facebook.com/nathan22x3)
 
 ## 👦 More about me
 
