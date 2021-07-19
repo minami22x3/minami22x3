@@ -2,7 +2,7 @@
 <!-- markdownlint-disable MD041 -->
 
 <h2>
-  Hey <img src="./assets/wave.gif" width="24" />, I'm Nathan!
+  Hey <img src="./public/images/wave.gif" width="24" />, I'm Nathan!
 </h2>
 
 I'm currently a Junior Student at [University of Economics and Finance](https://www.uef.edu.vn/en) in Ho Chi Minh City, Vietnam. I have a great passion in full-stack web development.
