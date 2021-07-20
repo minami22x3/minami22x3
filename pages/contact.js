@@ -9,14 +9,14 @@ const Contact = () => {
   };
 
   return (
-    <main css={tw`grid grid-cols-1 items-center gap-y-4 md:grid-cols-2`}>
+    <main className='col-2'>
       <Head>
         <title>Contact | Nathan Nguyen</title>
       </Head>
 
       <section>
         <h2>Contact me</h2>
-        <p css={tw`mt-4 text-sm text-gray-50 md:text-base`}>
+        <p css={tw`text-sm text-gray-50 md:text-base`}>
           I’m interested in freelance opportunities – especially ambitious or
           large projects. However, if you have other request or question, don’t
           hesitate to use the form.
@@ -47,6 +47,7 @@ const Contact = () => {
           <Button label='Send message!' type='submit' css={tw`self-end`} />
         </form>
       </section>
+      <section></section>
     </main>
   );
 };

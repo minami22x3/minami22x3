@@ -14,13 +14,11 @@ const NotFound = () => {
         <GlitchText>404</GlitchText>
         Page not found
       </h1>
-      <p css={tw`my-4 xl:text-xl`}>
+      <p css={tw`my-4 xl:text-lg`}>
         Ooops... Look like the page you were looking does not exist...
       </p>
       <Link href='/' passHref>
-        <a css={tw`self-start text-gray-100 text-sm`}>
-          {'\u27f5 Go back home'}
-        </a>
+        <a css={tw`self-start text-gray-100`}>{'\u27f5 Go back home'}</a>
       </Link>
     </main>
   );

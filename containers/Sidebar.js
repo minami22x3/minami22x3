@@ -16,7 +16,7 @@ const Sidebar = ({ show, onClose }) => {
   return (
     <aside
       css={[
-        tw`transform -translate-x-full absolute z-10 flex flex-col justify-between w-screen h-screen duration-500 bg-gray-500`,
+        tw`absolute transform -translate-x-full z-10 flex flex-col justify-between w-screen min-h-screen duration-500 bg-gray-500`,
         tw`xl:(relative translate-x-0 w-[130px])`,
         show && tw`translate-x-0`,
       ]}
@@ -24,7 +24,7 @@ const Sidebar = ({ show, onClose }) => {
       <div css={tw`flex flex-col items-center gap-y-4 py-5 bg-black`}>
         <Link href='/' passHref>
           <a
-            css={tw`flex flex-col items-center gap-y-1 hover:text-white`}
+            css={tw`flex flex-col items-center gap-y-1 !text-white hover:!text-white`}
             onClick={onClose}
           >
             <Image src='/images/logo.png' alt='Logo' width={75} />
@@ -36,36 +36,33 @@ const Sidebar = ({ show, onClose }) => {
       <div css={tw`flex flex-col divide-y divide-gray-300`}>
         {pages.map(({ label, href }) => (
           <Link key={label} href={href} passHref>
-            <a
-              css={tw`py-4 text-center font-medium text-gray-100`}
-              onClick={onClose}
-            >
+            <a css={tw`py-4 text-center font-medium`} onClick={onClose}>
               {label}
             </a>
           </Link>
         ))}
       </div>
-      <div css={tw`flex justify-center gap-x-3 py-10`}>
+      <div css={tw`flex justify-center gap-x-5 pt-6 pb-24 md:gap-3 xl:py-10`}>
         <a
-          href='http://facebook.com/nathan22x3'
+          href='https://facebook.com/nathan22x3'
           target='_blank'
           rel='noopener noreferrer'
         >
-          <FacebookIcon />
+          <FacebookIcon className='social-icon' />
         </a>
         <a
-          href='http://linkedin.com/in/nathan22x3'
+          href='https://linkedin.com/in/nathan22x3'
           target='_blank'
           rel='noopener noreferrer'
         >
-          <LinkedinIcon />
+          <LinkedinIcon className='social-icon' />
         </a>
         <a
-          href='http://github.com/nathan22x3'
+          href='https://github.com/nathan22x3'
           target='_blank'
           rel='noopener noreferrer'
         >
-          <GitHubIcon />
+          <GitHubIcon className='social-icon' />
         </a>
       </div>
     </aside>

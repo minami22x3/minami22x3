@@ -1,6 +1,6 @@
 import Hamburger from '@components/Hamburger';
 import Sidebar from '@containers/Sidebar';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import tw from 'twin.macro';
 
 const Layout = ({ children }) => {
@@ -10,8 +10,12 @@ const Layout = ({ children }) => {
     setIsMenuShow(!isMenuShow);
   };
 
+  useEffect(() => {
+    document.body.style.overflowY = isMenuShow ? 'hidden' : '';
+  }, [isMenuShow]);
+
   return (
-    <div css={tw`relative grid grid-cols-[auto 1fr] overflow-x-hidden`}>
+    <div css={tw`overflow-hidden relative grid grid-cols-[auto 1fr] h-screen`}>
       <Sidebar show={isMenuShow} onClose={() => setIsMenuShow(false)} />
       <Hamburger isMenuShow={isMenuShow} onToggleMenu={handleToggleMenu} />
       {children}
