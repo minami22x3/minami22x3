@@ -15,7 +15,7 @@ const NotFound = () => {
         Page not found
       </h1>
       <p css={tw`my-4 xl:text-xl`}>
-        Ooops... Look like the page you were looking does not exist
+        Ooops... Look like the page you were looking does not exist...
       </p>
       <Link href='/' passHref>
         <a css={tw`self-start text-gray-100 text-sm`}>

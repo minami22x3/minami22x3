@@ -31,7 +31,7 @@ module.exports = {
     extend: {
       animation: {
         slide: 'slide 4000ms infinite alternate',
-        glitch: 'glitch 500ms infinite steps(5, end)',
+        glitch: 'glitch 500ms infinite step-start',
       },
       keyframes: {
         slide: {

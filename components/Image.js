@@ -41,14 +41,12 @@ Image.propTypes = {
   alt: PropTypes.string,
   title: PropTypes.string,
   width: PropTypes.number,
-  others: PropTypes.object,
 };
 
 Image.defaultProps = {
   alt: '',
   title: '',
   width: 75,
-  others: null,
 };
 
 export default Image;

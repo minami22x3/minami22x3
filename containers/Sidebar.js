@@ -6,19 +6,26 @@ import GitHubIcon from '../public/images/github.svg';
 import LinkedinIcon from '../public/images/linkedin.svg';
 
 const pages = [
+  { label: 'Home', href: '/' },
   { label: 'About', href: '/about' },
   { label: 'Skills', href: '/skills' },
   { label: 'Contact', href: '/contact' },
 ];
 
-const Sidebar = () => {
+const Sidebar = ({ show, onClose }) => {
   return (
     <aside
-      css={tw`hidden flex-col justify-between w-[130px] h-screen bg-gray-500 xl:flex`}
+      css={[
+        tw`transform -translate-x-full absolute z-10 flex flex-col justify-between w-screen h-screen duration-500 bg-gray-500 xl:(relative w-[130px])`,
+        show && tw`translate-x-0`,
+      ]}
     >
       <div css={tw`flex flex-col items-center gap-y-4 py-5 bg-black`}>
         <Link href='/' passHref>
-          <a css={tw`flex flex-col items-center gap-y-1`}>
+          <a
+            css={tw`flex flex-col items-center gap-y-1 hover:text-white`}
+            onClick={onClose}
+          >
             <Image src='/images/logo.png' alt='Logo' width={75} />
             <span css={tw`font-inter font-black text-xl`}>Nathan</span>
           </a>
@@ -28,7 +35,12 @@ const Sidebar = () => {
       <div css={tw`flex flex-col divide-y divide-gray-300`}>
         {pages.map(({ label, href }) => (
           <Link key={label} href={href} passHref>
-            <a css={tw`py-4 text-center font-medium text-gray-100`}>{label}</a>
+            <a
+              css={tw`py-4 text-center font-medium text-gray-100`}
+              onClick={onClose}
+            >
+              {label}
+            </a>
           </Link>
         ))}
       </div>

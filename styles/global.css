@@ -25,22 +25,38 @@
   h4,
   h5,
   h6 {
-    @apply font-inter;
+    @apply font-inter font-black !important;
   }
 
   h1 {
-    @apply font-black text-4xl xl:text-8xl !important;
+    @apply text-4xl lg:text-6xl xl:text-8xl !important;
+  }
+
+  h2 {
+    @apply text-4xl lg:text-5xl xl:text-6xl text-teal !important;
   }
 
   a,
   button,
+  input,
   p,
-  span {
+  span,
+  textarea {
     @apply font-poppins !important;
   }
 
   a {
     @apply duration-300 hover:text-teal;
+  }
+
+  input,
+  textarea {
+    @apply text-gray-50 !important;
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    @apply text-gray-100 !important;
   }
 }
 
