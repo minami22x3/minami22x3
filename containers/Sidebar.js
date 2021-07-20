@@ -14,7 +14,7 @@ const pages = [
 const Sidebar = () => {
   return (
     <aside
-      css={tw`hidden flex-col justify-between w-[130px] bg-gray-500 xl:flex`}
+      css={tw`hidden flex-col justify-between w-[130px] h-screen bg-gray-500 xl:flex`}
     >
       <div css={tw`flex flex-col items-center gap-y-4 py-5 bg-black`}>
         <Link href='/' passHref>
@@ -28,9 +28,7 @@ const Sidebar = () => {
       <div css={tw`flex flex-col divide-y divide-gray-300`}>
         {pages.map(({ label, href }) => (
           <Link key={label} href={href} passHref>
-            <a css={tw`text-center py-4 duration-300 hover:text-teal`}>
-              {label}
-            </a>
+            <a css={tw`py-4 text-center font-medium text-gray-100`}>{label}</a>
           </Link>
         ))}
       </div>
@@ -39,7 +37,6 @@ const Sidebar = () => {
           href='http://facebook.com/nathan22x3'
           target='_blank'
           rel='noopener noreferrer'
-          css={tw`duration-300 hover:text-teal`}
         >
           <FacebookIcon />
         </a>
@@ -47,7 +44,6 @@ const Sidebar = () => {
           href='http://linkedin.com/in/nathan22x3'
           target='_blank'
           rel='noopener noreferrer'
-          css={tw`duration-300 hover:text-teal`}
         >
           <LinkedinIcon />
         </a>
@@ -55,7 +51,6 @@ const Sidebar = () => {
           href='http://github.com/nathan22x3'
           target='_blank'
           rel='noopener noreferrer'
-          css={tw`duration-300 hover:text-teal`}
         >
           <GitHubIcon />
         </a>
