@@ -16,7 +16,8 @@ const Sidebar = ({ show, onClose }) => {
   return (
     <aside
       css={[
-        tw`transform -translate-x-full absolute z-10 flex flex-col justify-between w-screen h-screen duration-500 bg-gray-500 xl:(relative w-[130px])`,
+        tw`transform -translate-x-full absolute z-10 flex flex-col justify-between w-screen h-screen duration-500 bg-gray-500`,
+        tw`xl:(relative translate-x-0 w-[130px])`,
         show && tw`translate-x-0`,
       ]}
     >
