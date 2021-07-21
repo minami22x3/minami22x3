@@ -56,7 +56,7 @@ Input.defaultProps = {
   value: '',
   placeholder: 'Placeholder',
   multiline: false,
-  rows: 4,
+  rows: 5,
   error: false,
   disabled: false,
   onChange: null,

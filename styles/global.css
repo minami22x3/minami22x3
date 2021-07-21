@@ -3,10 +3,6 @@
 @tailwind utilities;
 
 @layer base {
-  ::selection {
-    @apply text-white bg-purple;
-  }
-
   ::-webkit-scrollbar {
     @apply p-1 bg-gray-400;
 
@@ -22,8 +18,9 @@
   }
 
   html {
-    -webkit-tap-highlight-color: transparent;
     scroll-behavior: smooth;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
   }
 
   body {
@@ -52,7 +49,7 @@
   }
 
   h4 {
-    @apply font-bold text-lg lg:text-xl !important;
+    @apply font-bold text-xl !important;
   }
 
   a,

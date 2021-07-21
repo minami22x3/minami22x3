@@ -6,7 +6,7 @@ import ProgressBar from '@components/ProgressBar';
 const skills = [
   { name: 'Front-end', progress: 65 },
   { name: 'Back-end', progress: 35 },
-  { name: 'Moblie', progress: 30 },
+  { name: 'Mobile', progress: 30 },
 ];
 
 const experiences = [
@@ -21,7 +21,7 @@ const experiences = [
 ];
 
 const formatDate = (date = new Date()) => {
-  return date.toLocaleDateString(undefined, {
+  return date.toLocaleDateString('en-US', {
     month: 'short',
     year: 'numeric',
   });
@@ -40,7 +40,6 @@ const Skills = () => {
           <br />
           Experiences
         </h2>
-
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis nulla
           ullam molestiae doloremque sit cumque error? Fugit qui fugiat vitae

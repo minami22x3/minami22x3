@@ -31,7 +31,9 @@ const Home = () => {
         <br />
         web developer
       </h1>
-      <p css={tw`!m-0 text-gray-100 xl:text-xl`}>Front-end Developer</p>
+      <p css={tw`!m-0 font-semibold text-gray-100 xl:text-xl`}>
+        Front-end Developer
+      </p>
       <Button label='Contact me!' onClick={() => router.push('/contact')} />
     </main>
   );
