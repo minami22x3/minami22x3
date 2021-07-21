@@ -1,5 +1,7 @@
 import Button from '@components/Button';
 import Input from '@components/Input';
+import { pageVariants } from '@variants/index';
+import { motion } from 'framer-motion';
 import Head from 'next/head';
 import tw from 'twin.macro';
 
@@ -9,7 +11,14 @@ const Contact = () => {
   };
 
   return (
-    <main className='col-2'>
+    <motion.main
+      className='col-2'
+      variants={pageVariants}
+      initial='before'
+      animate='after'
+      exit='exit'
+      transition={{ duration: 1 }}
+    >
       <Head>
         <title>Contact | Nathan Nguyen</title>
       </Head>
@@ -48,7 +57,7 @@ const Contact = () => {
         </form>
       </section>
       <section></section>
-    </main>
+    </motion.main>
   );
 };
 

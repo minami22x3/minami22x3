@@ -1,13 +1,22 @@
 import Button from '@components/Button';
+import { motion } from 'framer-motion';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import tw, { css } from 'twin.macro';
+import { pageVariants } from '@variants/index';
 
 const Home = () => {
   const router = useRouter();
 
   return (
-    <main css={tw`flex flex-col justify-center gap-y-4`}>
+    <motion.main
+      css={tw`flex flex-col justify-center gap-y-4`}
+      variants={pageVariants}
+      initial='before'
+      animate='after'
+      exit='exit'
+      transition={{ duration: 1 }}
+    >
       <Head>
         <title>Nathan Nguyen | Front-end Developer</title>
       </Head>
@@ -35,7 +44,7 @@ const Home = () => {
         Front-end Developer
       </p>
       <Button label='Contact me!' onClick={() => router.push('/contact')} />
-    </main>
+    </motion.main>
   );
 };
 

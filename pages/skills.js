@@ -2,6 +2,8 @@ import Head from 'next/head';
 import Link from 'next/link';
 import tw from 'twin.macro';
 import ProgressBar from '@components/ProgressBar';
+import { motion } from 'framer-motion';
+import { pageVariants } from '@variants/index';
 
 const skills = [
   { name: 'Front-end', progress: 65 },
@@ -29,7 +31,14 @@ const formatDate = (date = new Date()) => {
 
 const Skills = () => {
   return (
-    <main className='col-2'>
+    <motion.main
+      className='col-2'
+      variants={pageVariants}
+      initial='before'
+      animate='after'
+      exit='exit'
+      transition={{ duration: 1 }}
+    >
       <Head>
         <title>Skills & Experiences | Nathan Nguyen</title>
       </Head>
@@ -93,7 +102,7 @@ const Skills = () => {
           ))}
         </div>
       </section>
-    </main>
+    </motion.main>
   );
 };
 

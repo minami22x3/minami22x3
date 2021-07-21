@@ -1,10 +1,19 @@
+import { pageVariants } from '@variants/index';
+import { motion } from 'framer-motion';
 import Head from 'next/head';
 import Link from 'next/link';
 import tw from 'twin.macro';
 
 const About = () => {
   return (
-    <main className='col-2'>
+    <motion.main
+      className='col-2'
+      variants={pageVariants}
+      initial='before'
+      animate='after'
+      exit='exit'
+      transition={{ duration: 1 }}
+    >
       <Head>
         <title>About | Nathan Nguyen</title>
       </Head>
@@ -34,7 +43,7 @@ const About = () => {
         </Link>
       </section>
       <section></section>
-    </main>
+    </motion.main>
   );
 };
 

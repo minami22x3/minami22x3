@@ -7,7 +7,8 @@
       "@components/*": ["components/*"],
       "@containers/*": ["containers/*"],
       "@pages/*": ["pages/*"],
-      "@styles/*": ["styles/*"]
+      "@styles/*": ["styles/*"],
+      "@variants/*": ["variants/*"]
     }
   }
 }

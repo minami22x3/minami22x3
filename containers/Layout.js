@@ -1,4 +1,5 @@
 import Hamburger from '@components/Hamburger';
+import Loading from '@containers/Loading';
 import Sidebar from '@containers/Sidebar';
 import { useEffect, useState } from 'react';
 import tw from 'twin.macro';
@@ -19,6 +20,7 @@ const Layout = ({ children }) => {
       <Sidebar show={isMenuShow} onClose={() => setIsMenuShow(false)} />
       <Hamburger isMenuShow={isMenuShow} onToggleMenu={handleToggleMenu} />
       {children}
+      <Loading />
     </div>
   );
 };
