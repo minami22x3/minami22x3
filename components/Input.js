@@ -16,7 +16,7 @@ const Input = ({
   return (
     <div
       css={[
-        tw`relative px-4 py-3 bg-gray-300 focus-within:before:w-full md:(px-5 py-4)`,
+        tw`relative bg-gray-300 focus-within:before:w-full`,
         tw`before:(absolute left-0 bottom-0 w-0 h-[2px] bg-teal duration-500)`,
         `::before{content: ''}`,
         error && tw`before:bg-red`,
@@ -24,14 +24,11 @@ const Input = ({
       {...others}
     >
       {!multiline ? (
-        <input
-          {...{ name, type, value, placeholder, disabled, onChange }}
-          css={tw`w-full h-full outline-none bg-inherit`}
-        />
+        <input {...{ name, type, value, placeholder, disabled, onChange }} />
       ) : (
         <textarea
           {...{ name, type, value, placeholder, rows, disabled, onChange }}
-          css={tw`w-full h-full outline-none resize-none bg-inherit`}
+          css={tw`resize-none`}
         />
       )}
     </div>

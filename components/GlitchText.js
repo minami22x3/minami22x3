@@ -14,24 +14,27 @@ const Base = styled.span`
 
   ::after {
     animation-duration: 375ms !important;
-    clip-path: polygon(0 70%, 100% 20%, 100% 100%, 0 100%);
+    clip-path: polygon(0 65%, 100% 55%, 100% 100%, 0 100%);
   }
 `;
 
-const GlitchText = ({ children, ...others }) => {
+const GlitchText = ({ autoplay, children, ...others }) => {
   return (
-    <Base
-      className='glitch-text'
-      data-content={children}
-      css={[
-        tw`block animate-glitch`,
-        tw`before:(absolute top-0 left-0 transform translate-x-[-0.025em] translate-y-[-0.025em] opacity-80 animate-glitch)`,
-        tw`after:(absolute top-0 left-0 transform translate-x-[0.0125em] translate-y-[0.025em] opacity-80 animate-glitch)`,
-      ]}
-      {...others}
-    >
-      {children}
-    </Base>
+    <div {...others}>
+      <Base
+        className='text-glitch'
+        data-content={children}
+        css={[
+          tw`block hover:animate-glitch`,
+          tw`before:(absolute top-0 left-0 transform translate-x-[-0.025em] translate-y-[-0.025em] opacity-80 hover:animate-glitch)`,
+          tw`after:(absolute top-0 left-0 transform translate-x-[0.025em] translate-y-[0.025em] opacity-80 hover:animate-glitch)`,
+          autoplay &&
+            tw`animate-glitch before:animate-glitch after:animate-glitch`,
+        ]}
+      >
+        {children}
+      </Base>
+    </div>
   );
 };
 

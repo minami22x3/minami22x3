@@ -1,5 +1,6 @@
-import Image from '@components/Image';
-import Link from 'next/link';
+import GlitchText from '@components/GlitchText';
+import Link from '@components/Link';
+import NextLink from 'next/link';
 import tw from 'twin.macro';
 import FacebookIcon from '../public/images/facebook.svg';
 import GitHubIcon from '../public/images/github.svg';
@@ -22,15 +23,15 @@ const Sidebar = ({ show, onClose }) => {
       ]}
     >
       <div css={tw`flex flex-col items-center gap-y-4 py-5 bg-black`}>
-        <Link href='/' passHref>
+        <NextLink href='/' passHref>
           <a
-            css={tw`flex flex-col items-center gap-y-1 !text-white hover:!text-white`}
+            css={tw`flex flex-col items-center gap-y-1 font-inter font-black !text-white hover:!text-white`}
             onClick={onClose}
           >
-            <Image src='/images/logo.png' alt='Logo' width={75} />
-            <span css={tw`font-inter font-black text-xl`}>Nathan</span>
+            <GlitchText css={tw`text-7xl`}>N</GlitchText>
+            <span css={tw`text-xl`}>Nathan</span>
           </a>
-        </Link>
+        </NextLink>
         <span css={tw`text-xs text-gray-50`}>Web Developer</span>
       </div>
       <div css={tw`flex flex-col divide-y divide-gray-300`}>

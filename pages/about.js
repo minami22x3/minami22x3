@@ -1,8 +1,8 @@
+import AnimatedHeading from '@components/AnimatedHeading';
 import { pageVariants } from '@variants/index';
 import { motion } from 'framer-motion';
 import Head from 'next/head';
 import Link from 'next/link';
-import tw from 'twin.macro';
 
 const About = () => {
   return (
@@ -12,14 +12,13 @@ const About = () => {
       initial='before'
       animate='after'
       exit='exit'
-      transition={{ duration: 1 }}
     >
       <Head>
         <title>About | Nathan Nguyen</title>
       </Head>
 
       <section>
-        <h2 css={tw`mb-8`}>My self</h2>
+        <AnimatedHeading content={'Myself'} />
         <p>
           I&apos;m currently a Junior Student at{' '}
           <a

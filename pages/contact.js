@@ -1,3 +1,4 @@
+import AnimatedHeading from '@components/AnimatedHeading';
 import Button from '@components/Button';
 import Input from '@components/Input';
 import { pageVariants } from '@variants/index';
@@ -17,14 +18,13 @@ const Contact = () => {
       initial='before'
       animate='after'
       exit='exit'
-      transition={{ duration: 1 }}
     >
       <Head>
         <title>Contact | Nathan Nguyen</title>
       </Head>
 
       <section>
-        <h2>Contact me</h2>
+        <AnimatedHeading content={'Contact me'} />
         <p css={tw`text-sm text-gray-50 md:text-base`}>
           I’m interested in freelance opportunities – especially ambitious or
           large projects. However, if you have other request or question, don’t

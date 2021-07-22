@@ -4,6 +4,7 @@ import tw from 'twin.macro';
 import ProgressBar from '@components/ProgressBar';
 import { motion } from 'framer-motion';
 import { pageVariants } from '@variants/index';
+import AnimatedHeading from '@components/AnimatedHeading';
 
 const skills = [
   { name: 'Front-end', progress: 65 },
@@ -37,18 +38,13 @@ const Skills = () => {
       initial='before'
       animate='after'
       exit='exit'
-      transition={{ duration: 1 }}
     >
       <Head>
         <title>Skills & Experiences | Nathan Nguyen</title>
       </Head>
 
       <section>
-        <h2 css={tw`mb-8`}>
-          Skills &amp;
-          <br />
-          Experiences
-        </h2>
+        <AnimatedHeading content={'Skills &\nExperience'} />
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis nulla
           ullam molestiae doloremque sit cumque error? Fugit qui fugiat vitae

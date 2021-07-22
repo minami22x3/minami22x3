@@ -15,7 +15,7 @@ const Home = () => {
       initial='before'
       animate='after'
       exit='exit'
-      transition={{ duration: 1 }}
+      transition={{ duration: 2 }}
     >
       <Head>
         <title>Nathan Nguyen | Front-end Developer</title>
@@ -26,7 +26,7 @@ const Home = () => {
         <br />
         I&apos;m{' '}
         <span
-          className='gradient-text'
+          className='text-gradient'
           css={[
             tw`animate-slide`,
             css`

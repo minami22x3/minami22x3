@@ -67,7 +67,7 @@
 
   input,
   textarea {
-    @apply text-gray-50 !important;
+    @apply w-full h-full px-4 py-3 outline-none text-gray-50 bg-inherit md:px-5 md:py-4 !important;
   }
 
   input::placeholder,
@@ -85,11 +85,11 @@
     @apply w-7 h-7 lg:w-6 lg:h-6;
   }
 
-  .gradient-text {
+  .text-gradient {
     @apply bg-clip-text text-transparent bg-gradient-to-r from-teal via-purple to-red;
   }
 
-  .glitch-text {
+  .text-glitch {
     @apply relative;
 
     text-shadow: 0.05em 0 0 rgba(253, 33, 85, 0.75),
@@ -107,6 +107,10 @@
 
   .link:hover {
     background-size: 100% 0.1rem;
+  }
+
+  .bg-gradient {
+    @apply bg-gradient-to-r from-teal via-purple to-red;
   }
 
   .col-2 {

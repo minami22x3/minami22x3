@@ -11,7 +11,7 @@ const NotFound = () => {
       </Head>
 
       <h1>
-        <GlitchText>404</GlitchText>
+        <GlitchText autoplay>404</GlitchText>
         Page not found
       </h1>
       <p css={tw`my-4 xl:text-lg`}>
