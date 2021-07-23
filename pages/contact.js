@@ -1,7 +1,7 @@
-import AnimatedHeading from '@components/AnimatedHeading';
+import AnimatedText from '@components/AnimatedText';
 import Button from '@components/Button';
 import Input from '@components/Input';
-import { pageVariants } from '@variants/index';
+import { pageVariants, rubberTextVariants } from '@variants/index';
 import { motion } from 'framer-motion';
 import Head from 'next/head';
 import tw from 'twin.macro';
@@ -24,7 +24,13 @@ const Contact = () => {
       </Head>
 
       <section>
-        <AnimatedHeading content={'Contact me'} />
+        <motion.h2
+          initial='before'
+          animate='after'
+          variants={rubberTextVariants}
+        >
+          <AnimatedText content={`Contact me`} />
+        </motion.h2>
         <p css={tw`text-sm text-gray-50 md:text-base`}>
           I’m interested in freelance opportunities – especially ambitious or
           large projects. However, if you have other request or question, don’t

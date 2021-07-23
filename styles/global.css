@@ -45,7 +45,7 @@
   }
 
   h2 {
-    @apply font-black text-4xl lg:text-5xl xl:text-6xl text-teal !important;
+    @apply mb-8 font-black text-4xl lg:text-5xl xl:text-6xl text-teal !important;
   }
 
   h4 {

@@ -1,5 +1,5 @@
-import AnimatedHeading from '@components/AnimatedHeading';
-import { pageVariants } from '@variants/index';
+import AnimatedText from '@components/AnimatedText';
+import { pageVariants, rubberTextVariants } from '@variants/index';
 import { motion } from 'framer-motion';
 import Head from 'next/head';
 import Link from 'next/link';
@@ -18,7 +18,13 @@ const About = () => {
       </Head>
 
       <section>
-        <AnimatedHeading content={'Myself'} />
+        <motion.h2
+          initial='before'
+          animate='after'
+          variants={rubberTextVariants}
+        >
+          <AnimatedText content={`Myself`} />
+        </motion.h2>
         <p>
           I&apos;m currently a Junior Student at{' '}
           <a
@@ -34,7 +40,7 @@ const About = () => {
         </p>
         <p>
           Problem solver, well-organised, independent person with high attention
-          to detail. Interested in the entire frontend spectrum and working on
+          to detail. Interested in the entire front-end spectrum and working on
           ambitious projects with positive people.
         </p>
         <Link href='/contact' passHref>

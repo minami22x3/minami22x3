@@ -32,6 +32,7 @@ module.exports = {
       animation: {
         slide: 'slide 4000ms infinite alternate',
         glitch: 'glitch 500ms infinite step-start',
+        'rubber-band': 'rubber-band 1000ms',
       },
       keyframes: {
         slide: {
@@ -58,6 +59,26 @@ module.exports = {
             'text-shadow': `-0.025em 0 0 rgba(253, 33, 85, 0.75),
               -0.025em -0.025em 0 rgba(8, 253, 261, 0.75),
               -0.025em -0.05em 0 rgba(210, 108, 213, 0.75)`,
+          },
+        },
+        'rubber-band': {
+          '0%': {
+            transform: 'scale3d(1, 1, 1)',
+          },
+          '35%': {
+            transform: 'scale3d(1.25, 0.75, 1)',
+          },
+          '45%': {
+            transform: 'scale3d(0.75, 1, 1)',
+          },
+          '60%': {
+            transform: 'scale3d(1.2, 0.8, 1)',
+          },
+          '75%': {
+            transform: 'scale3d(1.05, 0.95, 1)',
+          },
+          '100%': {
+            transform: 'scale3d(1, 1, 1)',
           },
         },
       },

@@ -1,10 +1,10 @@
+import AnimatedText from '@components/AnimatedText';
+import ProgressBar from '@components/ProgressBar';
+import { pageVariants, rubberTextVariants } from '@variants/index';
+import { motion } from 'framer-motion';
 import Head from 'next/head';
 import Link from 'next/link';
 import tw from 'twin.macro';
-import ProgressBar from '@components/ProgressBar';
-import { motion } from 'framer-motion';
-import { pageVariants } from '@variants/index';
-import AnimatedHeading from '@components/AnimatedHeading';
 
 const skills = [
   { name: 'Front-end', progress: 65 },
@@ -44,7 +44,13 @@ const Skills = () => {
       </Head>
 
       <section>
-        <AnimatedHeading content={'Skills &\nExperience'} />
+        <motion.h2
+          initial='before'
+          animate='after'
+          variants={rubberTextVariants}
+        >
+          <AnimatedText content={`Skills &\nExperience`} />
+        </motion.h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis nulla
           ullam molestiae doloremque sit cumque error? Fugit qui fugiat vitae

@@ -1,9 +1,14 @@
+import AnimatedText from '@components/AnimatedText';
 import Button from '@components/Button';
+import {
+  fadeUpVariants,
+  pageVariants,
+  rubberTextVariants,
+} from '@variants/index';
 import { motion } from 'framer-motion';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
-import tw, { css } from 'twin.macro';
-import { pageVariants } from '@variants/index';
+import tw from 'twin.macro';
 
 const Home = () => {
   const router = useRouter();
@@ -15,35 +20,23 @@ const Home = () => {
       initial='before'
       animate='after'
       exit='exit'
-      transition={{ duration: 2 }}
     >
       <Head>
         <title>Nathan Nguyen | Front-end Developer</title>
       </Head>
 
-      <h1 css={tw`w-[fit-content]`}>
-        Hi,
-        <br />
-        I&apos;m{' '}
-        <span
-          className='text-gradient'
-          css={[
-            tw`animate-slide`,
-            css`
-              background-size: 300%;
-            `,
-          ]}
-        >
-          Nathan
-        </span>
-        ,
-        <br />
-        web developer
-      </h1>
-      <p css={tw`!m-0 font-semibold text-gray-100 xl:text-xl`}>
+      <motion.h1 initial='before' animate='after' variants={rubberTextVariants}>
+        <AnimatedText content={`Hi,\nI'm Nathan,\nweb developer`} />
+      </motion.h1>
+      <motion.p
+        variants={fadeUpVariants}
+        css={tw`!m-0 font-semibold text-gray-100 xl:text-xl`}
+      >
         Front-end Developer
-      </p>
-      <Button label='Contact me!' onClick={() => router.push('/contact')} />
+      </motion.p>
+      <motion.div variants={fadeUpVariants}>
+        <Button label='Contact me!' onClick={() => router.push('/contact')} />
+      </motion.div>
     </motion.main>
   );
 };

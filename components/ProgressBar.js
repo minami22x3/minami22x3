@@ -22,7 +22,7 @@ const ProgressBar = ({ label, progress, ...others }) => {
                 transition: {
                   ease: [0.87, 0, 0.13, 1],
                   duration: 1.5,
-                  delay: 2,
+                  delay: 0.5,
                 },
               },
             }}

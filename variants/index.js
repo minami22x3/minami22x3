@@ -2,21 +2,43 @@ export const pageVariants = {
   before: { opacity: 0 },
   after: {
     opacity: 1,
-    transition: { duration: 1, delay: 1.3, delayChildren: 1 },
+    transition: {
+      when: 'beforeChildren',
+      delayChildren: 0.25,
+      staggerChildren: 0.15,
+      duration: 1,
+      delay: 0.75,
+    },
   },
-  exit: { opacity: 0, transition: { duration: 1 } },
+  exit: { opacity: 0, transition: { duration: 1, delay: 0.25 } },
 };
 
 export const loadingVariants = {
-  before: { translateX: '-100%' },
+  before: { opacity: 0 },
   after: {
-    translateX: ['-100%', '0%', '100%'],
+    opacity: 1,
     transition: {
-      delayChildren: 0.7,
-      staggerChildren: 0.3,
-      ease: [0.18, 1, 0.24, 1],
-      duration: 4,
+      delayChildren: 0.4,
+      staggerChildren: 1.5,
       delay: 0.5,
+    },
+  },
+};
+
+export const rubberTextVariants = {
+  after: {
+    transition: { staggerChildren: 0.15, delayChildren: 0.75 },
+  },
+};
+
+export const fadeUpVariants = {
+  before: { opacity: 0, y: 50 },
+  after: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.5,
+      easings: 'easeInOut',
     },
   },
 };
