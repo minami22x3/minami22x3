@@ -1,7 +1,7 @@
 import AnimatedText from '@components/AnimatedText';
 import Button from '@components/Button';
 import {
-  fadeUpVariants,
+  fadeInUpVariants,
   pageVariants,
   rubberTextVariants,
 } from '@variants/index';
@@ -29,12 +29,12 @@ const Home = () => {
         <AnimatedText content={`Hi,\nI'm Nathan,\nweb developer`} />
       </motion.h1>
       <motion.p
-        variants={fadeUpVariants}
+        variants={fadeInUpVariants}
         css={tw`!m-0 font-semibold text-gray-100 xl:text-xl`}
       >
         Front-end Developer
       </motion.p>
-      <motion.div variants={fadeUpVariants}>
+      <motion.div variants={fadeInUpVariants}>
         <Button label='Contact me!' onClick={() => router.push('/contact')} />
       </motion.div>
     </motion.main>

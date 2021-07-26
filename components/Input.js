@@ -19,7 +19,7 @@ const Input = ({
         tw`relative bg-gray-300 focus-within:before:w-full`,
         tw`before:(absolute left-0 bottom-0 w-0 h-[2px] bg-teal duration-500)`,
         `::before{content: ''}`,
-        error && tw`before:bg-red`,
+        error && tw`before:(w-full bg-red)`,
       ]}
       {...others}
     >

@@ -20,6 +20,8 @@ module.exports = {
       inherit: 'inherit',
       white: 'rgb(255, 255, 255)',
       red: 'rgb(253, 33, 85)',
+      yellow: 'rgb(251, 256, 108)',
+      green: 'rgb(114, 249, 128)',
       teal: 'rgb(8, 253, 261)',
       purple: 'rgb(210, 108, 213)',
       black: 'rgb(0, 0, 0)',

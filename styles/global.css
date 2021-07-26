@@ -75,6 +75,18 @@
     @apply text-gray-100 !important;
   }
 
+  :-webkit-autofill,
+  :-webkit-autofill:hover,
+  :-webkit-autofill:focus,
+  :-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 1000px theme('colors.gray.300') inset !important;
+    -webkit-text-fill-color: theme('colors.gray.50') !important;
+  }
+
+  ::selection {
+    @apply text-white bg-purple;
+  }
+
   p {
     @apply my-4 !important;
   }

@@ -31,7 +31,7 @@ export const rubberTextVariants = {
   },
 };
 
-export const fadeUpVariants = {
+export const fadeInUpVariants = {
   before: { opacity: 0, y: 50 },
   after: {
     opacity: 1,

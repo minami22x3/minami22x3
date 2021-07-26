@@ -24,12 +24,12 @@ const AnimatedText = ({ content }) => {
               before: { opacity: 0, scaleX: 0, scaleY: 0 },
               after: {
                 opacity: 1,
-                scaleX: [1, 1.05, 0.75, 1.15, 1.05, 1],
+                scaleX: [1, 1.05, 0.75, 1.25, 1.05, 1],
                 scaleY: [1, 0.75, 1, 0.8, 0.95, 1],
-                transition: { duration: 0.25 },
+                transition: { duration: 0.45 },
               },
             }}
-            css={tw`inline-block hover:(duration-300 text-teal)`}
+            css={tw`inline-block !font-inter hover:(duration-300 text-teal)`}
             onMouseOver={handleLetterAnimation}
           >
             {letter}
