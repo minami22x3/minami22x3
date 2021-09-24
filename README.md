@@ -5,9 +5,10 @@
   Hey <img src="./public/images/wave.gif" width="24" />, I'm Nathan!
 </h2>
 
-I'm currently a Junior Student at [University of Economics and Finance](https://www.uef.edu.vn/en) in Ho Chi Minh City, Vietnam. I have a great passion in full-stack web development.
+I'm currently a Senior Student at [University of Economics and Finance](https://www.uef.edu.vn/en) in Ho Chi Minh City, Vietnam. I have a great passion in full-stack web development.
 
-[![Facebook profile](https://img.shields.io/badge/Facebook-1877F2?style=flat-square&labelColor=white&logo=facebook)](https://facebook.com/nathan22x3)
+[![Facebook profile](https://img.shields.io/badge/Facebook-1877f2?style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com/nathan22x3)
+[![linkedIn profile](https://img.shields.io/badge/LinkedIn-0077b5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nathan22x3)
 
 ## 👦 More about me
 
@@ -20,14 +21,15 @@ I'm currently a Junior Student at [University of Economics and Finance](https://
 
 ### 🛠️ Languages and Tools
 
-![HTML5](https://img.shields.io/badge/html5-e07035.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-2965f1.svg?style=for-the-badge&logo=css3&logoColor=white)
-![Sass](https://img.shields.io/badge/sass-cf649a.svg?style=for-the-badge&logo=sass&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-323330.svg?style=for-the-badge&logo=javascript&logoColor=f0db4f)
-![React](https://img.shields.io/badge/react-20232a.svg?style=for-the-badge&logo=react&logoColor=5fd9fb)
-![Next.js](https://img.shields.io/badge/next.js-black.svg?style=for-the-badge&logo=next.js&logoColor=white)
-![Express](https://img.shields.io/badge/express-404d59.svg?style=for-the-badge&logo=express&logoColor=61dafb)
-![NodeJS](https://img.shields.io/badge/node.js-3e863d.svg?style=for-the-badge&logo=node.js&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-e07035?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-2965f1?style=for-the-badge&logo=css3&logoColor=white)
+![Sass](https://img.shields.io/badge/SASS-cf649a?style=for-the-badge&logo=sass&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=f0db4f)
+![TypeScript](https://img.shields.io/badge/TypeScript-007acc?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232a?style=for-the-badge&logo=react&logoColor=5fd9fb)
+![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-404d59?style=for-the-badge&logo=express&logoColor=61dafb)
+![NodeJS](https://img.shields.io/badge/Node.js-3e863d?style=for-the-badge&logo=node.js&logoColor=white)
 
 ### ⚡ GitHub Stats
 
