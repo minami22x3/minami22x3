@@ -39,5 +39,3 @@ I'm currently a Senior Student at [University of Economics and Finance](https://
   <img src="https://github-readme-stats.vercel.app/api?username=nathan22x3&theme=dracula&show_icons=true" height="170" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact&theme=dracula" height="170" />
 </div>
-
-[![Nathan Nguyen's Activities Graph](https://activity-graph.herokuapp.com/graph?username=nathan22x3&theme=material-palenight&custom_title=Nathan%20Nguyen's%20Activities%20Graph&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
