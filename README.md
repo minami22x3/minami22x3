@@ -15,7 +15,7 @@ I'm currently a Senior Student at [University of Economics and Finance](https://
 <img src="https://media.giphy.com/media/aNqEFrYVnsS52/giphy.gif" align="right" width="400" />
 
 - 🔭 I’m currently working on some of my side projects
-- 🌱 I’m currently learning [Angular](https://angular.io/)
+- 🌱 I’m currently learning [React Native Reanimated](https://www.reanimated2.com/)
 - 🤔 I’m looking for help with [React Three Fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction)
 - ❤️ Hobbies: I love to sing and playing guitar
 
@@ -28,6 +28,7 @@ I'm currently a Senior Student at [University of Economics and Finance](https://
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=f0db4f)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007acc?style=for-the-badge&logo=typescript&logoColor=ffffff)
 ![React](https://img.shields.io/badge/React-20232a?style=for-the-badge&logo=react&logoColor=5fd9fb)
+![React Native](https://img.shields.io/badge/React%20Native-282c34?style=for-the-badge&logo=react&logoColor=61dafb)
 ![Angular](https://img.shields.io/badge/Angular-dd0031?style=for-the-badge&logo=angular&logoColor=ffffff)
 ![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=ffffff)
 ![Express](https://img.shields.io/badge/Express-404d59?style=for-the-badge&logo=express&logoColor=61dafb)
