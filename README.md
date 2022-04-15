@@ -37,6 +37,6 @@ I'm currently a Senior Student at [University of Economics and Finance](https://
 ### ⚡ GitHub Stats
 
 <div>
-  <img src="https://github-readme-stats.vercel.app/api?username=nathan22x3&theme=dracula&show_icons=true" height="170" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact&theme=dracula" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api?username=nathan22x3&theme=gruvbox&show_icons=true" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact&theme=gruvbox" height="170" />
 </div>
