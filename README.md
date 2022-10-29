@@ -5,7 +5,7 @@
   Hey <img src="./public/images/wave.gif" width="24" />, I'm Nathan!
 </h2>
 
-I'm currently a Senior Student at [University of Economics and Finance](https://www.uef.edu.vn/en) in Ho Chi Minh City, Vietnam. I have a great passion in full-stack web development.
+I'm currently a Junior Software Engineering at [MoMo](https://momo.vn) in Ho Chi Minh City, Vietnam. I have a great passion in full-stack web development.
 
 [![Facebook profile](https://img.shields.io/badge/Facebook-1877f2?style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com/nathan22x3)
 [![linkedIn profile](https://img.shields.io/badge/LinkedIn-0077b5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nathan22x3)
