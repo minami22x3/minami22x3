@@ -7,8 +7,8 @@
 
 I'm currently a Junior Software Engineering at [MoMo](https://momo.vn) in Ho Chi Minh City, Vietnam. I have a great passion in full-stack web development.
 
-[![Facebook profile](https://img.shields.io/badge/Facebook-1877f2?style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com/nathan22x3)
-[![linkedIn profile](https://img.shields.io/badge/LinkedIn-0077b5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nathan22x3)
+[![Facebook profile](https://img.shields.io/badge/Facebook-1877f2?style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com/minami22x3)
+[![linkedIn profile](https://img.shields.io/badge/LinkedIn-0077b5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/minami22x3)
 
 ## 👦 More about me
 
@@ -37,6 +37,6 @@ I'm currently a Junior Software Engineering at [MoMo](https://momo.vn) in Ho Chi
 ### ⚡ GitHub Stats
 
 <div>
-  <img src="https://github-readme-stats.vercel.app/api?username=nathan22x3&theme=gruvbox&show_icons=true" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api?username=minami22x3&theme=gruvbox&show_icons=true" height="170" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact&theme=gruvbox" height="170" />
 </div>
