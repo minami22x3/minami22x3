@@ -1,20 +1,9 @@
-<h1 align="center">
-  Hey <img src="./public/images/wave.gif" width="24" />, I'm Nathan!
-</h1>
+# Hey <img src="./public/images/wave.gif" width="24" />, I'm Nathan!
 
-<p align="center">
-  Fullstack Software Engineer building scalable SaaS platforms, operational systems, and modern web experiences.
-</p>
+Fullstack Software Engineer building scalable SaaS platforms, operational systems, and modern web experiences.
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/minami22x3">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  
-  <a href="https://facebook.com/minami22x3">
-    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" />
-  </a>
-</p>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/minami22x3)
+[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com/minami22x3)
 
 ## About Me
 
@@ -36,14 +25,7 @@
 
 ## GitHub Stats
 
-<p align="center">
-  <img
-    height="165"
-    src="https://github-readme-stats.vercel.app/api?username=minami22x3&show_icons=true&theme=tokyonight&hide_border=true"
-  />
-  
-  <img
-    height="165"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=minami22x3&layout=compact&theme=tokyonight&hide_border=true"
-  />
-</p>
+<div>
+  <img height="165" src="./public/images/stats.svg" /> 
+  <img height="165" src="./public/images/top-langs.svg" />
+</div>
