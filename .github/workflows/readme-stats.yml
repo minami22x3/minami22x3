@@ -23,7 +23,7 @@ jobs:
         with:
           card: stats
           options: username=${{ github.repository_owner }}&show_icons=true&theme=gruvbox&rank_icon=github&hide_border=true
-          path: public/images/stats.svg
+          path: public/images/profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate top languages card
