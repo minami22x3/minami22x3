@@ -6,7 +6,7 @@ on:
     - cron: "0 0 * * *"
 
 jobs:
-  build:
+  generate-cards:
     runs-on: ubuntu-latest
 
     permissions:
@@ -15,15 +15,12 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
-      - name: Create profile directory
-        run: mkdir -p profile
-
       - name: Generate stats card
         uses: stats-organization/github-readme-stats-action@v1.2.0
         with:
           card: stats
           options: username=${{ github.repository_owner }}&show_icons=true&theme=gruvbox&rank_icon=github&hide_border=true
-          path: profile/stats.svg
+          path: public/images/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate top languages card
@@ -31,7 +28,7 @@ jobs:
         with:
           card: top-langs
           options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&theme=gruvbox&rank_icon=github&hide_border=true
-          path: profile/top-langs.svg
+          path: public/images/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit cards
