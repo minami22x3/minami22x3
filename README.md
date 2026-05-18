@@ -1,42 +1,49 @@
-<!-- markdownlint-disable MD033 -->
-<!-- markdownlint-disable MD041 -->
-
-<h2>
+<h1 align="center">
   Hey <img src="./public/images/wave.gif" width="24" />, I'm Nathan!
-</h2>
+</h1>
 
-I'm currently a Junior Software Engineering at [MoMo](https://momo.vn) in Ho Chi Minh City, Vietnam. I have a great passion in full-stack web development.
+<p align="center">
+  Fullstack Software Engineer building scalable SaaS platforms, operational systems, and modern web experiences.
+</p>
 
-[![Facebook profile](https://img.shields.io/badge/Facebook-1877f2?style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com/minami22x3)
-[![linkedIn profile](https://img.shields.io/badge/LinkedIn-0077b5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/minami22x3)
+<p align="center">
+  <a href="https://www.linkedin.com/in/minami22x3">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  
+  <a href="https://facebook.com/minami22x3">
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" />
+  </a>
+</p>
 
-## 👦 More about me
+## About Me
 
-<img src="https://media.giphy.com/media/aNqEFrYVnsS52/giphy.gif" align="right" width="400" />
+- 🚀 Fullstack Engineer at [**Norra.ai**](https://norra.ai)
+- ⚙️ Building multi-tenant SaaS platforms with **Elixir/Phoenix** & **Next.js**
+- 💳 Experienced in payment gateway integrations & operational systems
+- 🐳 Interested in DevOps, homelab infrastructure, and self-hosted ecosystems
+- 🎸 Sometimes coding. Sometimes singing with a guitar at 2AM.
 
-- 🔭 I’m currently working on some of my side projects
-- 🌱 I’m currently learning [React Native Reanimated](https://www.reanimated2.com/)
-- 🤔 I’m looking for help with [React Three Fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction)
-- ❤️ Hobbies: I love to sing and playing guitar
+## Tech Stack
 
-### 🛠️ Languages and Tools
+![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232a?style=for-the-badge&logo=react&logoColor=61dafb)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Elixir](https://img.shields.io/badge/Elixir-4B275F?style=for-the-badge&logo=elixir&logoColor=white)
+![Phoenix](https://img.shields.io/badge/Phoenix-EF5B25?style=for-the-badge&logo=phoenixframework&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ed?style=for-the-badge&logo=docker&logoColor=white)
 
-![HTML5](https://img.shields.io/badge/HTML5-e07035?style=for-the-badge&logo=html5&logoColor=ffffff)
-![CSS3](https://img.shields.io/badge/CSS3-2965f1?style=for-the-badge&logo=css3&logoColor=ffffff)
-![Sass](https://img.shields.io/badge/SASS-cf649a?style=for-the-badge&logo=sass&logoColor=ffffff)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=ffffff)
-![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=f0db4f)
-![TypeScript](https://img.shields.io/badge/TypeScript-007acc?style=for-the-badge&logo=typescript&logoColor=ffffff)
-![React](https://img.shields.io/badge/React-20232a?style=for-the-badge&logo=react&logoColor=5fd9fb)
-![React Native](https://img.shields.io/badge/React%20Native-282c34?style=for-the-badge&logo=react&logoColor=61dafb)
-![Angular](https://img.shields.io/badge/Angular-dd0031?style=for-the-badge&logo=angular&logoColor=ffffff)
-![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=ffffff)
-![Express](https://img.shields.io/badge/Express-404d59?style=for-the-badge&logo=express&logoColor=61dafb)
-![NodeJS](https://img.shields.io/badge/Node.js-3e863d?style=for-the-badge&logo=node.js&logoColor=ffffff)
+## GitHub Stats
 
-### ⚡ GitHub Stats
-
-<div>
-  <img src="https://github-readme-stats.vercel.app/api?username=minami22x3&theme=gruvbox&show_icons=true" height="170" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact&theme=gruvbox" height="170" />
-</div>
+<p align="center">
+  <img
+    height="165"
+    src="https://github-readme-stats.vercel.app/api?username=minami22x3&show_icons=true&theme=tokyonight&hide_border=true"
+  />
+  
+  <img
+    height="165"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=minami22x3&layout=compact&theme=tokyonight&hide_border=true"
+  />
+</p>
