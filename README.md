@@ -26,6 +26,6 @@ Fullstack Software Engineer building scalable SaaS platforms, operational system
 ## GitHub Stats
 
 <div>
-  <img height="165" src="./public/images/stats.svg" /> 
-  <img height="165" src="./public/images/top-langs.svg" />
+  <img height="165" src="./public/images/profile/stats.svg" /> 
+  <img height="165" src="./public/images/profile/top-langs.svg" />
 </div>
